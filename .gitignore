@@ -1,0 +1,19 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (not stored in Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (decision on this in Phase 10)
+models/*
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
